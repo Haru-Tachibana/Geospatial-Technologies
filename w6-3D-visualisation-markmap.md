@@ -56,3 +56,11 @@
 ### Lovett et al (2015)
 - [Using 3D visualization methods in landscape planning: An evaluation of options and practical issues](https://www.sciencedirect.com/science/article/pii/S0169204615000535)
 - ![When? What? How?](https://ars.els-cdn.com/content/image/1-s2.0-S0169204615000535-gr1.jpg)
+
+### increasing expectations
+- e.g., realistic game modelling
+
+### towards 'code of practice'
+### wind farm example
+
+## 6.4 Mixed Realities
