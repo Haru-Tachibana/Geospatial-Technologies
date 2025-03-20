@@ -47,3 +47,16 @@
 - software can automatically recognise features and construct 3D models (e.g., software name: VisualSFM, CouldComapre)
 - some software like CloudCompare can handle with missing facets
 - view more: [link to sketchfab](https://sketchfab.com/)
+
+### ==Smart Cities / Digital Twins==
+- smart city this term is less used now than digital twins, for later one focus more on systems etc
+- City modelling with GIS? ==ESRI CityEngine== [link to ESRI CityEngine overview page](https://www.esri.com/en-us/arcgis/products/arcgis-cityengine/overview)
+ 
+### Trimble SketchUp
+- [SketchUp](http://sketchup.com/)
+
+## 7.3 LoD - Level of Detail
+- LoD3 is the most common one in architectural fields
+- CityGML establishes 5 different levels
+- give ppl a framework
+
