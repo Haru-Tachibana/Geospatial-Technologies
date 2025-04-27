@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nottingham 3D Digital Twin Survey</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f5f7fa; }
+        h1 { color: #2c3e50; }
+        .question { margin-bottom: 20px; }
+        button { background-color: #3498db; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #2980b9; }
+    </style>
+</head>
+<body>
+
+    <h1>Public Engagement Survey: Nottingham 3D Digital Twin</h1>
+
+    <form id="surveyForm">
+        <div class="question">
+            <p>1. How easy was it to navigate the Digital Twin platform?</p>
+            <select name="ease">
+                <option value="Very Easy">Very Easy</option>
+                <option value="Somewhat Easy">Somewhat Easy</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Somewhat Difficult">Somewhat Difficult</option>
+                <option value="Very Difficult">Very Difficult</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <p>2. Did the 3D models help you better understand projects?</p>
+            <select name="understanding">
+                <option value="Significantly">Yes, significantly</option>
+                <option value="Somewhat">Yes, somewhat</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Not Really">No, not really</option>
+                <option value="Not at All">No, not at all</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <p>3. How confident are you that your feedback influences decisions?</p>
+            <select name="confidence">
+                <option value="Very Confident">Very Confident</option>
+                <option value="Somewhat Confident">Somewhat Confident</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Not Very Confident">Not Very Confident</option>
+                <option value="Not Confident At All">Not Confident at All</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <p>4. How concerned are you about data security on the platform?</p>
+            <select name="security">
+                <option value="Very Concerned">Very Concerned</option>
+                <option value="Somewhat Concerned">Somewhat Concerned</option>
+                <option value="Neutral">Neutral</option>
+                <option value="Slightly Concerned">Slightly Concerned</option>
+                <option value="Not Concerned">Not Concerned</option>
+            </select>
+        </div>
+
+        <div class="question">
+            <p>5. What improvements would make you more likely to use the Digital Twin?</p>
+            <textarea name="improvements" rows="4" cols="50" placeholder="Your suggestions..."></textarea>
+        </div>
+
+        <button type="button" onclick="submitSurvey()">Submit</button>
+    </form>
+
+    <div id="thanksMessage" style="display:none; margin-top:20px;">
+        <h2>Thank you for your feedback!</h2>
+    </div>
+
+    <script>
+        function submitSurvey() {
+            document.getElementById('surveyForm').style.display = 'none';
+            document.getElementById('thanksMessage').style.display = 'block';
+        }
+    </script>
+
+</body>
+</html>
